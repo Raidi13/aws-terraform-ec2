@@ -1,4 +1,4 @@
-## terraform aws ec2
+## Terraform aws ec2
 
 
 ## Arguments

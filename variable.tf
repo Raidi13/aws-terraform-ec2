@@ -8,7 +8,7 @@ variable "instance_type" {
     default = "t3.micro"
     type = string
     validation {
-        condition = contains (["t3.micro","t3.medium","t3.small", var.test_variable])
+        condition = contains (["t3.micro","t3.medium","t3.small", var.instance_type])
         error_message = "instance type can only be ."
     }
 
